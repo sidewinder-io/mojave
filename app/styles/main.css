@@ -2,6 +2,8 @@ body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+    background: #65BCA5;
+    color: #65BCA5;
 }
 
 .hero-unit {
@@ -19,4 +21,85 @@ body {
     font-size: 60px;
     line-height: 1;
     letter-spacing: -1px;
+}
+/******
+Header
+*******/
+.container
+{
+width: 100%!important;
+padding: 0!important;
+}
+
+.navbar{
+margin: 0;
+min-height: 40px;
+border: 0;
+background: #0F1C29;
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.Title{
+display: block;
+font-family: 'Kaushan Script', cursive;
+font-size: 25px;
+padding: 5px 0px 5px 16px;
+}
+
+.center{
+   position: absolute;
+  top:50%;
+  left: 50%;
+  margin-left:-197px ;
+  margin-top:-45px;
+  width: 464px;
+}
+/******
+Button
+*******/
+.button{
+  position:relative;
+  display:inline-block;
+  margin:20px;
+}
+
+.button a{
+ color: white;
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+font-size: 36px;
+text-align: center;
+text-decoration: none;
+background-color: #F46948;
+display: block;
+position: relative;
+padding: 20px 40px;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+text-shadow: 0px 1px 0px #000;
+-webkit-filter: dropshadow(color=#000, offx=0px, offy=1px);
+filter: dropshadow(color=#000, offx=0px, offy=1px);
+box-shadow: inset 0 1px 0 #F46948, 0 10px 0 #B54E35;
+border-radius: 5px;
+}
+
+.button a:active{
+ top: 10px;
+background-color: #F46948;
+box-shadow: inset 0 1px 0 #F46948, inset 0 -3px 0 #B54E35;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
